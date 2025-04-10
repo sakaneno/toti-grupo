@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+.teti{
+    width: 100%;
+    height: 200px;
+    border: solid 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 60px;
+    border: solid 3px red;
+}
+
+main{
+    padding: 20px;
+}
+
+figure{
+    display: flex;
+    gap: 10px;
+}
